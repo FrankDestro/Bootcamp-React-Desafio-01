@@ -1,0 +1,31 @@
+/* Navbar */ 
+.main-navbar {
+    padding-left: 20px;
+    min-height: 70px;
+}
+
+/* Carros Top */
+.nav-logo-text {
+    color: #00285F;
+}
+
+.nav-logo-text:hover {
+    color: #00285F;
+}
+
+/* Menu Princial */
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.main-menu a {
+    font-weight: 400;
+}
+
+.main-menu a.active {
+    font-weight: 700;
+}
+
