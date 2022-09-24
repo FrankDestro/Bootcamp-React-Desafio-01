@@ -1,0 +1,200 @@
+/* Card azul */
+.home-main-container {
+  background: #00285f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 20px 10px 20px 10px;
+  padding: 10px 5px 25px 5px;
+}
+
+/* imagem carro amarelo*/
+.home-imagecar-container {
+  padding: 0 20px;
+}
+
+.home-imagecar-container svg {
+  width: 100%;
+}
+
+/*O Carro perfeito para você*/
+.home-content-container h1 {
+  font-size: 22px;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+}
+
+/*Conheça nossos carros...*/
+.home-content-container p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  margin: 10px 20px 30px 20px;
+}
+
+/* div cinza */
+.container-btn-catalogo {
+  background-color: #ededed;
+  border-radius: 10px;
+  margin: 20px 10px 0px 10px;
+  text-align: center;
+  padding: 28px 40px 10px 40px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+/*comece agora a navegar */
+.container-subtitile p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #585858;
+  margin: 10px;
+}
+
+/* configurar os breakpoints */
+
+@media (min-width: 576px) {
+  /* Card azul */
+  .home-main-container {
+    margin: 20px 15px 20px 15px;
+  }
+
+  /*O Carro perfeito para você*/
+  .home-content-container h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /*Conheça nossos carros...*/
+  .home-content-container p {
+    font-size: 18px;
+    margin: 0px 45px 20px 45px;
+  }
+
+  /* div cinza */
+  .container-btn-catalogo {
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 15px 0px 15px;
+    height: 123px;
+  }
+
+  /*comece agora a navegar */
+  .container-subtitile p {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* imagem carro amarelo*/
+  .home-imagecar-container {
+    padding: 50px 20px 30px;
+  }
+
+  /*Conheça nossos carros...*/
+  .home-content-container p {
+    font-size: 19px;
+    margin: 0px 140px 20px 140px;
+  }
+
+  /* Card azul */
+  .home-main-container {
+    padding: 10px 5px 40px 5px;
+  }
+
+  /* div cinza */
+  .container-btn-catalogo {
+    justify-content: left;
+    padding: 28px 40px 25px 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-imagecar-container svg {
+    height: 250px;
+  }
+
+  /* imagem carro amarelo*/
+  .home-imagecar-container {
+    padding: 0px 0px;
+  }
+
+  /*O Carro perfeito para você*/
+  .home-content-container h1 {
+    font-size: 32px;
+  }
+
+  /*Conheça nossos carros...*/
+  .home-content-container p {
+    font-size: 18px;
+    margin: 10px 260px 20px 260px;
+  }
+
+  /* Card azul */
+  .home-main-container {
+    padding: 40px 5px 80px 5px;
+  }
+
+  /* div cinza */
+  .container-btn-catalogo {
+    justify-content: left;
+    padding: 28px 40px 25px 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .home-imagecar-container svg {
+    height: 220px;
+  }
+
+  /* Card azul */
+  .home-main-container {
+    margin: 20px 140px 20px 140px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 80px 5px 80px 5px;
+  }
+
+  /* div cinza */
+  .container-btn-catalogo {
+    margin: 20px 140px 0px 140px;
+  }
+
+  /*O Carro perfeito para você*/
+  .home-content-container h1 {
+    text-align: left;
+    font-size: 30px;
+    margin: 60px 0px 0px 60px;
+  }
+
+  /*Conheça nossos carros...*/
+  .home-content-container p {
+    margin: 10px 0px 0px 60px;
+    padding-right: 80px;
+    text-align: left;
+    font-size: 17px;
+  }
+
+  /* imagem carro amarelo*/
+  .home-imagecar-container {
+    padding: 0 0px;
+    margin-right: 90px;
+  }
+
+  .home-content-container {
+    width: 490px;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* Card azul */
+  .home-main-container {
+    justify-content: center;
+  }
+}

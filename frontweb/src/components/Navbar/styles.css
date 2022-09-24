@@ -1,31 +1,53 @@
-/* Navbar */ 
+/* Navbar */
 .main-navbar {
-    padding-left: 20px;
-    min-height: 70px;
+  padding-left: 20px;
+  min-height: 70px;
 }
 
 /* Carros Top */
 .nav-logo-text {
-    color: #00285F;
+  color: #00285f;
 }
 
 .nav-logo-text:hover {
-    color: #00285F;
+  color: #00285f;
 }
 
 /* Menu Princial */
 .main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 180px;
-    justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+  width: 180px;
+  justify-content: space-between;
 }
 
 .main-menu a {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .main-menu a.active {
-    font-weight: 700;
+  font-weight: 700;
+} 
+
+@media (min-width: 992px) {
+  /* Carros Top */
+  .nav-logo-text {
+    margin-right: 230px;
+  }
 }
 
+@media (min-width: 1280px) {
+  /* Carros Top */
+  .nav-logo-text {
+    margin-left: 110px;
+    margin-right: 80px;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* Carros Top */
+  .nav-logo-text {
+    margin-left: 110px;
+    margin-right: 690px;
+  }
+}
